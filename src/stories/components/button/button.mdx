@@ -1,0 +1,32 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import Example from "./example.tsx";
+import * as Button from "./button.stories.tsx";
+
+<Meta of={Button} title="Button" />
+
+# Button
+
+Componente de botón con diferentes especializaciones.
+
+#### Example
+
+<Canvas of={Button.Primary} />
+
+## Usage
+
+```ts
+import {Button} from "sld-ui";
+
+const Example = () => {
+  return (
+      <Button
+        size={"small"}
+        text={"Button"}
+        onClick={()=> console.log("Clicked")}
+        primary
+      />
+  );
+};
+
+export default Example;
+```

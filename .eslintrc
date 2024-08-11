@@ -1,0 +1,31 @@
+{
+    // Especifica los entornos donde se ejecutará el código
+    "env": {
+      "jest": true,       // Habilita Jest para testing
+      "browser": true     // Habilita el entorno del navegador
+    },
+  
+    // Evita que ESLint busque configuraciones en la carpeta padre
+    "root": true,
+  
+    // Especifica el parseador para TypeScript (en este ejemplo usaremos @typescript-eslint/parser) 
+    "parser": "@typescript-eslint/parser",
+  
+    // Extiende el rango con configuraciones y complementos de ESLint
+    "plugins": ["@typescript-eslint"],
+  
+    // Agrega reglas adicionales y opciones de configuración
+    "extends": [
+      "eslint:recommended",                   // Reglas recomendadas para ESLint
+      "plugin:react/recommended",             // Reglas recomendadas para React
+      "plugin:@typescript-eslint/recommended", // Reglas recomendadas para TypeScript
+      "plugin:@typescript-eslint/eslint-recommended", 
+      "prettier",                             // Reglas para Prettier
+      "plugin:prettier/recommended",          // Reglas recomendadas para los plugins Prettier
+      "plugin:react-hooks/recommended",       // Reglas recomendadas para los hooks de React
+      "plugin:storybook/recommended"          // Reglas recomendadas para Storybook
+    ],
+    "rules": {
+      "react/react-in-jsx-scope": "off"
+    }
+  }
