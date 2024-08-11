@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import Example from "./example";
 
 const meta: Meta<typeof Example> = {
-  title: "Button",
+  title: "Common/Input/Button",
   component: Example,
 };
 
