@@ -16,7 +16,7 @@ export const Default: Story = {
 
 export const WithLabel: Story = {
     render: (args) => (
-        <Card {...args} >
+        <Card {...args}>
             <Card>Label</Card>
             This is a card
         </Card>
