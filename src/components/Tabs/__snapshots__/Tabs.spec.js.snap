@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomTabs component renders without crashing and matches snapshot 1`] = `
+<div>
+  <div
+    class="undefined "
+    data-rttabs="true"
+    data-ui="Tabs"
+  >
+    <div>
+      <ul
+        class="undefined "
+        data-ui="TabList"
+        role="tablist"
+      >
+        <li
+          aria-controls="react-tabs-1"
+          aria-disabled="false"
+          aria-posinset="1"
+          aria-selected="true"
+          aria-setsize="2"
+          class="undefined   react-tabs__tab--selected"
+          data-rttab="true"
+          data-ui="Tab"
+          id="react-tabs-0"
+          role="tab"
+          tabindex="0"
+        >
+          Tab 1
+        </li>
+        <li
+          aria-controls="react-tabs-3"
+          aria-disabled="false"
+          aria-posinset="2"
+          aria-selected="false"
+          aria-setsize="2"
+          class="undefined  "
+          data-rttab="true"
+          data-ui="Tab"
+          id="react-tabs-2"
+          role="tab"
+        >
+          Tab 2
+        </li>
+      </ul>
+    </div>
+    <div
+      aria-labelledby="react-tabs-0"
+      class="react-tabs__tab-panel react-tabs__tab-panel--selected"
+      data-ui="TabPanel"
+      id="react-tabs-1"
+      role="tabpanel"
+    >
+      Panel 1
+    </div>
+    <div
+      aria-labelledby="react-tabs-2"
+      class="react-tabs__tab-panel"
+      data-ui="TabPanel"
+      id="react-tabs-3"
+      role="tabpanel"
+    />
+  </div>
+</div>
+`;
