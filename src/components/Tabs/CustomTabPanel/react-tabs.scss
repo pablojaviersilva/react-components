@@ -1,0 +1,9 @@
+.react-tabs {
+  &__tab-panel {
+    display: none;
+
+    &--selected {
+      display: block;
+    }
+  }
+}
