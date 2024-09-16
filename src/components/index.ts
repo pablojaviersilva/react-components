@@ -1,4 +1,3 @@
-export * from "./Button";
-export * from "./Card";
-export * from "./Tabs";
-export * from "./Tabs2";
+export * from "./Button/Button";
+export * from "./Card/Card";
+export * from "./Tabs/Tabs";
